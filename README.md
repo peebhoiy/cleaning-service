@@ -52,7 +52,7 @@ Follow these steps to clone the repository and run the development server locall
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/cleaning-service.git
+git clone https://github.com/peebhoiy/cleaning-service.git
 cd cleaning-service
 ```
 
