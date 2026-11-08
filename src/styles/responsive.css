@@ -1,0 +1,188 @@
+/* Cleaning Service - Responsive Styles */
+
+/* ==========================================================================
+   TABLETS & MEDIUM VIEWPORTS (max-width: 1024px)
+   ========================================================================== */
+@media (max-width: 1024px) {
+  .nav-desktop {
+    display: none;
+  }
+
+  .mobile-nav-toggle {
+    display: flex;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .about-collage {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .why-us-container {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .why-us-intro {
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    padding-right: 0;
+    padding-bottom: 2rem;
+  }
+
+  .why-us-features-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .process-steps-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem 1.5rem;
+  }
+
+  .process-connector-arrow {
+    display: none;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .tips-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .booking-cta-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .booking-cta-left {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* ==========================================================================
+   MOBILE VIEWPORTS (max-width: 768px)
+   ========================================================================== */
+@media (max-width: 768px) {
+  :root {
+    --header-height: 70px;
+  }
+
+  .hero-slider-section {
+    min-height: 85vh;
+  }
+
+  .hero-content-wrapper {
+    padding-top: calc(var(--header-height) + 1.5rem);
+    padding-bottom: 5rem;
+  }
+
+  .hero-nav-arrow {
+    display: none; /* Mobile relies on indicators and swipe */
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    max-width: 440px;
+    margin: 0 auto;
+  }
+
+  .why-us-features-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 1.5rem;
+  }
+
+  .process-steps-wrapper {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 320px;
+    margin: 2.5rem auto 0;
+  }
+
+  .tips-grid {
+    grid-template-columns: 1fr;
+    max-width: 440px;
+    margin: 0 auto;
+  }
+
+  .footer-top-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .footer-bottom-bar {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.75rem;
+  }
+
+  .about-img-main {
+    width: 100%;
+    height: 280px;
+  }
+
+  .about-img-sub {
+    width: 65%;
+    height: 180px;
+    bottom: -1.5rem;
+  }
+}
+
+/* ==========================================================================
+   SMALL MOBILE VIEWPORTS (max-width: 480px)
+   ========================================================================== */
+@media (max-width: 480px) {
+  .hero-headline {
+    font-size: 2.1rem;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-cta-group .btn {
+    width: 100%;
+  }
+
+  .about-stats-row {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .booking-cta-btn {
+    width: 100%;
+  }
+
+  .testimonial-card {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .testimonial-quote {
+    font-size: 1.05rem;
+  }
+
+  .testimonial-author-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .back-to-top {
+    bottom: 1.25rem;
+    right: 1.25rem;
+  }
+}
+
